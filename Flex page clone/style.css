@@ -1,0 +1,188 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    color: black;
+    background-image: url(./images/backgroud-img.jpg);
+    background-size: cover;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+@media (max-width: 1097px) {
+    .page{
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-2{
+        display: block;
+        text-align: center;
+        height: 50vh;
+        width: 100vw;
+        padding: 0;
+    }
+    .grid-1{
+        order: 2;
+        width: 100%;
+        background-color: white;
+    }
+}
+/*-------------------------------------------------------------*/
+.grid-1{
+    background-color: white;
+    width: 50%;
+    padding: 4.75rem 10rem;
+}
+.flex-login-title{
+    margin-bottom: 2.7rem;
+}
+.flex-login-title img{
+    width: 100%;
+    height: 100%;
+}
+.flex-login-signin{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12rem;
+}
+.flex-login-signin-title{
+    font-family: Montserrat;
+    text-align: center;
+}
+.flex-login-signin-input-title{
+    font-family: Montserrat;
+    margin-bottom: 0.5rem;  
+}
+.flex-login-signin-input-field{
+    border: 1px solid rgba(172, 160, 160, 0.4);
+    border-radius: 0px;
+    display: flex;
+}
+.flex-login-signin-input-icon{
+    font-size: 0.7rem;
+    padding: 0.7rem 0.8rem 0rem 0.8rem;
+    opacity: 0.6;
+    background-color: rgba(172, 160, 160, 0.5);
+}
+.flex-login-signin-input-field input{
+    flex: 1;
+    align-self: center;
+    padding: 0.4rem 3rem 0.4rem 1rem;
+}
+.flex-login-signin-input-info{
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    opacity: 0.7;
+    padding: 0.4rem 0;
+}
+.recaptcha{
+    background-color: rgb(241, 235, 235);
+    border: 1px solid rgba(172, 160, 160, 0.4);
+    width: 302px;
+    height: 90px;
+    border-radius: 1px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.recaptcha-checkbox{
+    size: 1.75rem;
+    height: 1.75rem;
+    border: none;
+    padding: 0 1rem;
+}
+.recaptcha-description{
+    font-family: Montserrat;
+    flex: 1;
+}
+.recaptcha-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.4rem;
+}
+.recaptcha-logo img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.recaptcha-logo-title{
+    font-family: Montserrat;
+    font-size: 0.65rem;
+    opacity: 0.7;
+}
+.recaptcha-logo-subtitle{
+    font-family: Montserrat;
+    font-size: 0.63rem;
+    opacity: 0.7;
+}
+.additional-options{
+    display: flex;
+    flex-direction: row;
+}
+.remember-me{
+    flex: 1;
+}
+.remember-me label{
+    font-family: Montserrat;
+    font-size: 0.65rem;
+    opacity: 0.7;
+}
+.forget-password{
+    font-family: Montserrat;
+    text-decoration: none;
+    color: rgb(39, 2, 126);
+    font-size: 0.77rem;
+}
+.submit{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.submit-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.63rem 1.7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #5867dd;
+    border-color: #5867dd;
+    color: white;
+}
+.submit-button-text{
+    font-size:  0.8rem;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-left: 2px;
+}
+/*-------------------------------------------------------------*/
+.grid-2{
+    color: white;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+.grid-2-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.grid-2-text{
+    font-size: 0.85rem;
+}
+.grid-2-hypertext{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 0.8rem;
+    color: white;
+}
