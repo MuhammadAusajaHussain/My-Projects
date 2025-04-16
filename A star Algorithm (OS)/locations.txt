@@ -1,0 +1,12 @@
+Ajmair Nagri  (0,1)
+Bombay Bakrey (1,2)
+Oxford School (2,2)
+Baridari      (4,2)
+Babul Islam   (5,2)
+Disco Mor     (7,2)
+Qalandaria    (8,0)
+KIHD          (12,4)
+Fazal Mill    (11,6)
+Centrum       (13,6)
+NU            (20,22)
+
